@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+h1{
+    font-size: 40px ;
+    color:white;
+}
+textarea{
+    background-color: rgb(5, 4, 4);
+    color: white;
+
+    
+}
+.save_button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 100px;
+    width: 50%;
+    font-size: 15px;
+    background-color: rgb(80, 156, 175);
+}
